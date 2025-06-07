@@ -123,6 +123,8 @@ class battleSystem:
     def castSkill(self, usedSkill, casterStatus, targetStatus, distance):
 
         skillKeywords = usedSkill.skillKeywords
+        realAttackDamage = 0
+        realAbilityDamage = 0
 
         # 직접 공격의 경우 모션을 수행, 버프 디버프가 들어가기 전에 발동됨
         if "물리 공격력 계수" in usedSkill.skillAttackDetail:

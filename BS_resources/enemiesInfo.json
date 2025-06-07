@@ -1,0 +1,494 @@
+[
+  {
+    "dataSet": {
+      "name": "이로치 치코리타",
+      "sprite": "enemy1.jpg",
+      "health": 250,
+      "mana": 100,
+      "mana_regeneration" : 1,
+      "attack_damage" : 20,
+      "ability_power" : 0,
+      "armor" : 10,
+      "magic_resistance" : 10,
+      "attack_speed" : 1.50,
+      "range" : 200,
+      "movement_speed" : 350
+    },
+    "skillSet": {
+      "skillName" : "씨뿌리기",
+      "skillDescription" : "딱히 발동될 일은 없는 스킬. 쓰기만 하면 무럭무럭 자라난다.",
+      "skillKeywords" : [],
+      "skillAttackDetail" : {
+        "물리 공격력 계수": 500,
+        "주문력 계수": 0
+      },
+      "skillBuffDetail" : {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 500,
+        "주문력": 500,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      },
+      "skillDebuffDetail" : {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      }
+    }
+  },
+  {
+    "dataSet": {
+      "name": "엉금엉금",
+      "sprite": "enemy2.jpg",
+      "health": 500,
+      "mana": 100,
+      "mana_regeneration" : 20,
+      "attack_damage" : 50,
+      "ability_power" : 0,
+      "armor" : 30,
+      "magic_resistance" : 30,
+      "attack_speed" : 1.50,
+      "range" : 250,
+      "movement_speed" : 350
+    },
+    "skillSet": {
+      "skillName" : "굴러가기",
+      "skillDescription" : "조금 쎄게 때립니다.",
+      "skillKeywords" : [],
+      "skillAttackDetail" : {
+        "물리 공격력 계수": 120,
+        "주문력 계수": 0
+      },
+      "skillBuffDetail" : {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      },
+      "skillDebuffDetail" : {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      }
+    }
+  },
+  {
+    "dataSet": {
+      "name": "아처",
+      "sprite": "enemy3.png",
+      "health": 800,
+      "mana": 100,
+      "mana_regeneration" : 20,
+      "attack_damage" : 30,
+      "ability_power" : 0,
+      "armor" : 25,
+      "magic_resistance" : 25,
+      "attack_speed" : 2.22,
+      "range" : 600,
+      "movement_speed" : 350
+    },
+    "skillSet": {
+      "skillName" : "후퇴",
+      "skillDescription" : "뒤로 조금 빠진 뒤 재정비합니다.",
+      "skillKeywords" : ["점멸"],
+      "skillAttackDetail" : {
+        "물리 공격력 계수": 0,
+        "주문력 계수": 0
+      },
+      "skillBuffDetail" : {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 10,
+        "물리 공격력": 10,
+        "주문력": 0,
+        "방어력": 10,
+        "마법 저항력": 10,
+        "공격 속도": 20,
+        "사거리": 0,
+        "이동 속도": 0
+      },
+      "skillDebuffDetail" : {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      }
+    }
+  },
+  {
+    "dataSet": {
+      "name": "푸른 파수꾼",
+      "sprite": "enemy4.jpg",
+      "health": 2100,
+      "mana": 40,
+      "mana_regeneration": 20,
+      "attack_damage": 63,
+      "ability_power": 63,
+      "armor": 0,
+      "magic_resistance": 42,
+      "attack_speed": 0.49,
+      "range": 175,
+      "movement_speed": 350
+    },
+    "skillSet": {
+      "skillName": "통찰력의 문장",
+      "skillDescription": "점점 마법 공격이 쎄집니다. 자주 씁니다. 치명타도 터집니다.",
+      "skillKeywords": [
+        "치명타"
+      ],
+      "skillAttackDetail": {
+        "물리 공격력 계수": 50,
+        "주문력 계수": 200
+      },
+      "skillBuffDetail": {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 25,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      },
+      "skillDebuffDetail": {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      }
+    }
+  },
+  {
+    "dataSet": {
+      "name": "아야",
+      "sprite": "enemy5.png",
+      "health": 2349,
+      "mana": 100,
+      "mana_regeneration" : 20,
+      "attack_damage" : 200,
+      "ability_power" : 0,
+      "armor" : 89,
+      "magic_resistance" : 25,
+      "attack_speed" : 0.89,
+      "range" : 1000,
+      "movement_speed" : 500
+    },
+    "skillSet": {
+      "skillName" : "아야의 정의의 공포탄",
+      "skillDescription" : "버프와 디버프로 무장했습니다. 저격총들고 멀리 쏘면서 지는 덜 아프게 맞습니다. 뒤로 빠집니다.",
+      "skillKeywords" : ["점멸", "기절"],
+      "skillAttackDetail" : {
+        "물리 공격력 계수": 0,
+        "주문력 계수": 0
+      },
+      "skillBuffDetail" : {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 50,
+        "마법 저항력": 100,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      },
+      "skillDebuffDetail" : {
+        "체력": 0,
+        "사용 마나": 20,
+        "마나 재생": 0,
+        "물리 공격력": 20,
+        "주문력": 20,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 10,
+        "사거리": 0,
+        "이동 속도": 10
+      }
+    }
+  },
+  {
+    "dataSet": {
+      "name": "어둠마녀 쿠키",
+      "sprite": "enemy6.jpg",
+      "health": 2811,
+      "mana": 110,
+      "mana_regeneration" : 20,
+      "attack_damage" : 88,
+      "ability_power" : 200,
+      "armor" : 80,
+      "magic_resistance" : 100,
+      "attack_speed" : 1.50,
+      "range" : 600,
+      "movement_speed" : 600
+    },
+    "skillSet": {
+      "skillName" : "악화 어둠 화살",
+      "skillDescription" : "슬슬 적이 강력합니다. 원거리 마법사입니다.",
+      "skillKeywords" : ["점멸"],
+      "skillAttackDetail" : {
+        "물리 공격력 계수": 0,
+        "주문력 계수": 200
+      },
+      "skillBuffDetail" : {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 25,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      },
+      "skillDebuffDetail" : {
+        "체력": 10,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 20,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 40,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      }
+    }
+  },
+  {
+    "dataSet": {
+      "name": "데스슬링거",
+      "sprite": "enemy7.jpg",
+      "health": 3500,
+      "mana": 275,
+      "mana_regeneration" : 50,
+      "attack_damage" : 150,
+      "ability_power" : 150,
+      "armor" : 150,
+      "magic_resistance" : 150,
+      "attack_speed" : 2.00,
+      "range" : 300,
+      "movement_speed" : 440
+    },
+    "skillSet": {
+      "skillName" : "구속자",
+      "skillDescription" : "상대를 끌어오는 근딜입니다. 데바데는 망겜입니다.",
+      "skillKeywords" : ["그랩"],
+      "skillAttackDetail" : {
+        "물리 공격력 계수": 50,
+        "주문력 계수": 60
+      },
+      "skillBuffDetail" : {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      },
+      "skillDebuffDetail" : {
+        "체력": 0,
+        "사용 마나": 20,
+        "마나 재생": 0,
+        "물리 공격력": 10,
+        "주문력": 12,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 10,
+        "이동 속도": 30
+      }
+    }
+  },
+  {
+    "dataSet": {
+      "name": "대족장 스랄",
+      "sprite": "enemy8.jpg",
+      "health": 4200,
+      "mana": 100,
+      "mana_regeneration" : 30,
+      "attack_damage" : 150,
+      "ability_power" : 250,
+      "armor" : 180,
+      "magic_resistance" : 180,
+      "attack_speed" : 1.50,
+      "range" : 700,
+      "movement_speed" : 400
+    },
+    "skillSet": {
+      "skillName" : "연쇄 번개",
+      "skillDescription" : "치킨을 튀길 수 있습니다!",
+      "skillKeywords" : ["치명타"],
+      "skillAttackDetail" : {
+        "물리 공격력 계수": 0,
+        "주문력 계수": 300
+      },
+      "skillBuffDetail" : {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      },
+      "skillDebuffDetail" : {
+        "체력": 15,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      }
+    }
+  },
+  {
+    "dataSet": {
+      "name": "존 윅",
+      "sprite": "enemy9.jpg",
+      "health": 3000,
+      "mana": 70,
+      "mana_regeneration" : 50,
+      "attack_damage" : 300,
+      "ability_power" : 0,
+      "armor" : 100,
+      "magic_resistance" : 100,
+      "attack_speed" : 1.50,
+      "range" : 450,
+      "movement_speed" : 1000
+    },
+    "skillSet": {
+      "skillName" : "건짓수",
+      "skillDescription" : "웬만한 모든 상황에서 당신을 터뜨릴 수 있습니다.",
+      "skillKeywords" : ["치명타","기절"],
+      "skillAttackDetail" : {
+        "물리 공격력 계수": 66,
+        "주문력 계수": 0
+      },
+      "skillBuffDetail" : {
+        "체력": 20,
+        "사용 마나": 10,
+        "마나 재생": 0,
+        "물리 공격력": 20,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 20,
+        "사거리": 20,
+        "이동 속도": 20
+      },
+      "skillDebuffDetail" : {
+        "체력": 0,
+        "사용 마나": 15,
+        "마나 재생": 15,
+        "물리 공격력": 15,
+        "주문력": 15,
+        "방어력": 15,
+        "마법 저항력": 15,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      }
+    }
+  },
+  {
+    "dataSet": {
+      "name": "타노스",
+      "sprite": "enemy10.jpg",
+      "health": 4900,
+      "mana": 100,
+      "mana_regeneration" : 9,
+      "attack_damage" : 200,
+      "ability_power" : 300,
+      "armor" : 150,
+      "magic_resistance" : 150,
+      "attack_speed" : 1.20,
+      "range" : 600,
+      "movement_speed" : 500
+    },
+    "skillSet": {
+      "skillName" : "핑거스냅",
+      "skillDescription" : "튕기기 전에는 제거하십시오!",
+      "skillKeywords" : [],
+      "skillAttackDetail" : {
+        "물리 공격력 계수": 2000,
+        "주문력 계수": 2000
+      },
+      "skillBuffDetail" : {
+        "체력": 0,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      },
+      "skillDebuffDetail" : {
+        "체력": 50,
+        "사용 마나": 0,
+        "마나 재생": 0,
+        "물리 공격력": 0,
+        "주문력": 0,
+        "방어력": 0,
+        "마법 저항력": 0,
+        "공격 속도": 0,
+        "사거리": 0,
+        "이동 속도": 0
+      }
+    }
+  }
+]

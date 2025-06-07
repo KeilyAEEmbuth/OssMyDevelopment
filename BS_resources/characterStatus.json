@@ -1,0 +1,45 @@
+{
+  "None" : {
+    "name" : "챔피언의 이름을 서술합니다.",
+    "sprite": "해당 챔피언의 사진을 이 파일경로로 불러옵니다.",
+    "health" : "챔피언의 체력입니다. 이 체력이 0이 될 경우 이 캐릭터는 패배합니다.",
+    "mana" : "챔피언의 마나입니다. 마법 공격을 사용할 때, 스킬을 사용할 때 소모되는 코스트입니다. 일반적으로 재생되지 않습니다.",
+    "mana_regeneration" : "이 수치가 0 이상일 경우 0.1초마다 이 수치만큼 마나를 재생합니다.",
+    "attack damage" : "챔피언의 물리 공격 수치입니다. 챔피언의 물리 속성을 공격 액션의 데미지 수치는 이 수치의 영향을 받습니다.",
+    "ability power" : "챔피언의 주문력 수치입니다. 챔피언의 주문력 계수가 있는 액션의 수치는 이 수치의 영향을 받습니다.",
+    "armor" : "챔피언의 물리 방어 수치입니다. 물리 속성 공격을 받을 때 이 수치만큼 피해를 줄여서 받습니다.",
+    "magic_resistance" : "챔피언의 마법 저항 수치입니다. 주문력 계수 기반 공격을 받을 때 이 수치만큼 피해를 줄여서 받습니다.",
+    "attack_speed" : "챔피언의 공격 속도 수치입니다. 1초 동안 공격을 가할 수 있는 횟수이며, 딜레이로 수치화시켜 평타 딜레이 모션으로 활용합니다.",
+    "range" : "설정상 챔피언의 공격 사거리입니다. 이 1:1 전투에서 상대보다 range가 짧을 경우 (range 차이 - 이동 속도 계수) 동안 평타를 사용할 수 없습니다.",
+    "movement_speed" : "설정상 챔피언의 1초 동안 챔피언이 이동하는 거리며, 이 시뮬레이터에서 이 수치만큼 0.1초 단위로 range 공격 딜레이를 보정합니다.",
+    "etc" : "이 시뮬레이터의 기본 틱 단위는 0.1초 단위입니다. 마나 재생, 공속 딜레이 등 모두 0.1초 단위로 판정이 이루어집니다."
+  },
+  "Lee_sin" : {
+    "name": "리 신",
+    "sprite": "Lee_sin.jpg",
+    "health": 1000,
+    "mana": 100,
+    "mana_regeneration" : 50,
+    "attack_damage" : 100,
+    "ability_power" : 100,
+    "armor" : 50,
+    "magic_resistance" : 50,
+    "attack_speed" : 2.00,
+    "range" : 200,
+    "movement_speed" : 350
+  },
+  "Aoji_sitodo" : {
+    "name": "시토도 아오지",
+    "sprite": "Aoji_sitodo.jpg",
+    "health": 1000,
+    "mana": 100,
+    "mana_regeneration" : 10,
+    "attack_damage" : 100,
+    "ability_power" : 100,
+    "armor" : 50,
+    "magic_resistance" : 50,
+    "attack_speed" : 2.00,
+    "range" : 200,
+    "movement_speed" : 350
+  }
+}

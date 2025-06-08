@@ -42,9 +42,9 @@
     "range" : 200,
     "movement_speed" : 350
   },
-  "Lee_sin" : {
+  "Kaisa" : {
     "name": "카이사",
-    "sprite": "kaisa.jpg",
+    "sprite": "Kaisa.png",
     "health": 1000,
     "mana": 100,
     "mana_regeneration" : 50,
